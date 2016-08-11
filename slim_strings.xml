@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Common strings -->
+    <string name="disabled">Отключено</string>
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_cancel">Отклонить</string>
+
+    <!-- Slim settings screens -->
+    <string name="navigation_settings_title">Навигация</string>
+    <string name="interface_settings_title">Интерфейс</string>
+    <string name="advanced_settings">Расширенные</string>
+
+    <string name="quick_settings">Быстрые настройки </string>
+    <string name="status_bar_icons">Строка состояния</string>
+
+    <!-- Navigation settings -->
+    <string name="navigation_settings_options_title">Настройки навигации</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="advanced_reboot_dialog_title">Расширенная перезагрузка</string>
+    <string name="advanced_reboot_disabled">Отключено</string>
+    <string name="advanced_reboot_hide_on_keyguard">Скрывать на экране блокировки</string>
+    <string name="advanced_reboot_show_always">Показывать всегда</string>
+
+    <!-- Hardware keys -->
+    <string name="button_keys_title">Софт-кнопки</string>
+    <string name="keys_bindings_title">Действия</string>
+    <string name="keys_enable_custom_title">Назначить действия</string>
+    <string name="keys_enable_custom_summary">Назначить действия на кнопки</string>
+
+    <!-- Slim Shortcuts -->
+    <string name="slim_shortcut_picker">Действия Slim</string>
+    <string name="shortcut_action_select_action">Выберите действие:</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">Строка состояния</string>
+    <string name="status_bar_style_title">Стиль</string>
+
+    <!-- Status bar - Battery Options -->
+    <string name="battery_icon_options_title">Настройка батареи</string>
+
+    <!-- Status bar - Battery Style -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыть</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значек</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значек</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Показывать проценты батареи</string>
+    <string name="status_bar_battery_percentage_dialog_title">Проценты</string>
+    <string name="status_bar_battery_percentage_default">Скрывать (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar">Панель навигации</string>
+    <string name="navigation_settings_category">Навигация</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (по умолчанию)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (выключен)</string>
+    <string name="navigation_menu_right">Право</string>
+    <string name="navigation_menu_left">Лево</string>
+    <string name="navigation_menu_both">И то и другое</string>
+    <string name="navigation_menu_default_jb_behavior">Показывать по запросу (по умолчанию)</string>
+    <string name="navigation_menu_never_show">Никогда не показывать</string>
+    <string name="navigation_menu_always_show">Показывать всегда</string>
+    <string name="navbar_button_cat">Кнопки</string>
+    <string name="title_pref_menu_location">Расположенин меню</string>
+    <string name="summary_pref_menu_location">Где расположить кнопку меню?</string>
+    <string name="title_pref_menu_display">Отоьражение меню</string>
+    <string name="summary_pref_menu_display">Как и когда должна появляться кнопка?</string>
+    <string name="navbar_enable_bar">Активировать панель навигации</string>
+    <string name="navbar_enable_bar_summary">Активировать панель навигации</string>
+    <string name="navigation_bar_height_title">Высота панели</string>
+    <string name="navigation_bar_height_summary">Высота панели в портретной ориентации</string>
+    <string name="navigation_bar_height_landscape_title">Высота панели в ландшафтной ориентации</string>
+    <string name="navigation_bar_height_landscape_summary"></string>
+    <string name="navigation_bar_width_title">Ширина панели навигации</string>
+    <string name="navigation_bar_width_summary">Высота панели, если она вдоль стороны.</string>
+    <string name="navbar_can_move">Показывать в альбомной ориентации</string>
+    <string name="navbar_can_move_summary">Показывать панель в альбомной ориентации снизу</string>
+    <string name="navbar_style_dimen_title">Размеры</string>
+    <string name="navbar_style_dimen_summary">Изменения высоты</string>
+    <string name="navbar_button_title">Кнопки</string>
+    <string name="navbar_button_summary">Настройка отображения кнопок</string>
+    <string name="navbar_cat">Панель навигации</string>
+    <string name="navbar_dimensions_reset_message">Сбросить размеры?</string>
+    <string name="navbar_button_style_reset_message">Сбросить стиль?</string>
+
+    <!-- Navigation bar button style -->
+    <string name="nav_bar_button_style">Стиль кнопок</string>
+    <string name="nav_bar_button_style_summary">Изменения стиля панели навигации</string>
+    <string name="button_transparency_title">Прозрачность кнопок</string>
+    <string name="navigation_bar_icon_tint_title">Цвет кнопок</string>
+    <string name="nav_button_color_mode_title">Цветной режим</string>
+    <string name="nav_button_color_mode_dialog_title">Цвета</string>
+    <string name="nav_button_color_mode_summary">Смена цвета панели навигации</string>
+    <string name="navigation_bar_glow_tint_title">Цвет подсветки кнопок</string>
+
+    <!-- Icon color options -->
+    <string name="icon_color_mode_all_icons">Все иконки</string>
+    <string name="icon_color_mode_system_icons">Системные иконки</string>
+    <string name="icon_color_mode_system_custom_icons">Системные и пользовательские иконки</string>
+
+    <!-- Recent panel -->
+    <string name="recent_panel_category">Панель "недавних приложений"</string>
+    <string name="use_slim_recents_title">Панель Slim</string>
+    <string name="show_running_tasks_title">Только запущенные приложения</string>
+    <string name="recents_max_apps_title">Максимальное количество</string>
+    <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_expanded_mode_title">Расширенный режим</string>
+    <string name="recent_panel_expanded_mode_summary">Последние задачи в расширенном режиме</string>
+    <string name="recent_panel_expanded_mode_auto">Авто (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_always">Всегда</string>
+    <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_show_topmost_title">Показывать верхнюю задачу</string>
+    <string name="recent_panel_show_topmost_summary">Не исключать верхнюю задачу из недавних приложений</string>
+    <string name="recent_panel_bg_color_title">Цвет фона панели</string>
+    <string name="recent_card_bg_color_title">Цвет фона карточек</string>
+    <string name="recent_card_text_color_title">Цвет подписей</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Показывать по левому краю</string>
+    <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений по левому краю</string>
+
+    <!-- Clock & Date options -->
+    <string name="status_bar_clock">Часы и дата</string>
+    <string name="status_bar_clock_title">Стиль часов и даты</string>
+    <string name="clock_title_enable">Расположение</string>
+    <string name="clock_enabled">Включено</string>
+    <string name="clock_disabled">Выключено</string>
+    <string name="clock_color_title">Цвет</string>
+    <string name="status_bar_clock_style_reset">Сбросить цвет</string>
+    <string name="status_bar_show_clock_title">Показывать часы</string>
+    <string name="status_bar_clock_color_override">Использовать свой цвет</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-часа</string>
+    <string name="enable_clock_weekday">День недели</string>
+    <string name="enable_clock_weekday_summary">Сокращать день недели</string>
+    <string name="right_clock">Часы справа</string>
+    <string name="center_clock">Часы по центру</string>
+    <string name="left_clock">Часы слева</string>
+    <string name="dont_show">Не показывать</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображение даты с часами</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_position">Положение даты</string>
+    <string name="clock_date_format">Формат</string>
+    <string name="clock_date_string_edittext_title">Должен быть в MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary"></string>
+    <string name="am_pm_clock_normal">Нормальный размер текста</string>
+    <string name="am_pm_clock_small">Маленький размер текста</string>
+    <string name="am_pm_clock_none">Не показывать</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер текста</string>
+    <string name="clock_date_display_normal">Нормальный размер текста</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
+    <string name="clock_date_style_normal">Обычные</string>
+    <string name="clock_date_style_lowercase">Строчные</string>
+    <string name="clock_date_style_uppercase">Прописные</string>
+    <string name="clock_date_format_custom">Пользовательский java-формат</string>
+    <string name="status_bar_clock_style_reset_message">Сбросить цвет часов?</string>
+
+    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <string name="advanced_options_settings_title">Допольнительно</string>
+    <string name="device_settings_title">Настройки устройства</string>
+
+</resources>
