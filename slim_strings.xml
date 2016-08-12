@@ -19,9 +19,6 @@
     <!-- Slim Settings Screens -->
     <string name="header_category_personalization">Кастомизация</string>
 
-    <!-- Doze options -->
-    <string name="display_category_doze_options_title">Умный экран</string>
-
     <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Место нахождения</string>
     <string name="app_ops_categories_personal">Личные</string>
