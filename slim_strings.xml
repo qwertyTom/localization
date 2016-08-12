@@ -15,6 +15,145 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Slim Settings Screens -->
+    <string name="header_category_personalization">Кастомизация</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Умный экран</string>
+
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <string name="app_ops_categories_location">Место нахождения</string>
+    <string name="app_ops_categories_personal">Личные</string>
+    <string name="app_ops_categories_messaging">Сообщения</string>
+    <string name="app_ops_categories_media">Медиа</string>
+    <string name="app_ops_categories_device">Устройство</string>
+    <string name="app_ops_categories_bootup">Bootup</string>
+    <string name="app_ops_categories_su">Суперпользователь</string>
+
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_labels_coarse_location">МГрубое местоположение</string>
+    <string name="app_ops_labels_fine_location">Прекрасное местоположение</string>
+    <string name="app_ops_labels_gps">GPS</string>
+    <string name="app_ops_labels_vibrate">Вибрация</string>
+    <string name="app_ops_labels_read_contacts">Чтение контактов</string>
+    <string name="app_ops_labels_modify_contacts">Modify contacts</string>
+    <string name="app_ops_labels_read_call_log">Чтение списка вызовов</string>
+    <string name="app_ops_labels_modify_call_log">Редактирование списка вызовов</string>
+    <string name="app_ops_labels_read_calendar">Чтение календаря</string>
+    <string name="app_ops_labels_modify_calendar">Изменение календаря</string>
+    <string name="app_ops_labels_wifi_scan">Сканирование Wi-Fi</string>
+    <string name="app_ops_labels_notification">Уведомления/Тосты</string>
+    <string name="app_ops_labels_cell_scan">Сканирование Cell</string>
+    <string name="app_ops_labels_call_phone">Вызовы</string>
+    <string name="app_ops_labels_read_sms">Чтение SMS</string>
+    <string name="app_ops_labels_write_sms">Запись SMS</string>
+    <string name="app_ops_labels_receive_sms">Получение SMS</string>
+    <string name="app_ops_labels_receive_emergency_sms">Получение SMS об чрезвычайных ситуациях</string>
+    <string name="app_ops_labels_receive_mms">Получение MMS</string>
+    <string name="app_ops_labels_receive_wap_push">Получение WAP-push</string>
+    <string name="app_ops_labels_send_sms">Отправка SMS</string>
+    <string name="app_ops_labels_read_icc_sms">Чтение ICC SMS</string>
+    <string name="app_ops_labels_write_icc_sms">Запись ICC SMS</string>
+    <string name="app_ops_labels_modify_settings">Изменение настроек</string>
+    <string name="app_ops_labels_draw_on_top">Ничья</string>
+    <string name="app_ops_labels_access_notifications">Доступ к уведомелниям</string>
+    <string name="app_ops_labels_camera">Камера</string>
+    <string name="app_ops_labels_record_audio">Запись аудио</string>
+    <string name="app_ops_labels_play_audio">Воспроизведение аудио</string>
+    <string name="app_ops_labels_read_clipboard">Чтение клипов</string>
+    <string name="app_ops_labels_modify_clipboard">Изменения клипов</string>
+    <string name="app_ops_labels_media_buttons">Кнопки-медиа</string>
+    <string name="app_ops_labels_audio_focus">Аудио фокус</string>
+    <string name="app_ops_labels_master_volume">Главная громкость</string>
+    <string name="app_ops_labels_voice_volume">Громкость вызовов</string>
+    <string name="app_ops_labels_ring_volume">Громкость рингтонов</string>
+    <string name="app_ops_labels_media_volume">Громкость медиа</string>
+    <string name="app_ops_labels_alarm_volume">Громкость будильника</string>
+    <string name="app_ops_labels_notification_volume">Громкость будильника</string>
+    <string name="app_ops_labels_bluetooth_volume">Громкость bluetooth-устройств</string>
+    <string name="app_ops_labels_keep_awake">Бодрствование</string>
+    <string name="app_ops_labels_monitor_location">Отслеживание местоположений</string>
+    <string name="app_ops_labels_monitor_high_power_location">Высокий уровень отслеживаний</string>
+    <string name="app_ops_labels_get_usage_stats">Получить статистику использования</string>
+    <string name="app_ops_labels_mute_unmute_microphone">приглушение/заглушение микрофона</string>
+    <string name="app_ops_labels_toast_window">Уведомления с экрана</string>
+    <string name="app_ops_labels_project_media">Медиа</string>
+    <string name="app_ops_labels_activate_vpn">Активация VPN</string>
+    <string name="app_ops_labels_write_wallpaper">Чтение обоев</string>
+    <string name="app_ops_labels_assist_structure">Вспомогательные структуры</string>
+    <string name="app_ops_labels_assist_screenshot">Скриншот</string>
+    <string name="app_ops_labels_read_phone_state">Чтение состояния телефона</string>
+    <string name="app_ops_labels_add_voicemail">Добавление голосовой почты</string>
+    <string name="app_ops_labels_use_sip">Использование микрофона</string>
+    <string name="app_ops_labels_make_call">Соверешение вызовов</string>
+    <string name="app_ops_labels_use_fingerprint">Использование отпечатка пальца</string>
+    <string name="app_ops_labels_use_body_sensors">Использование датчиков</string>
+    <string name="app_ops_labels_read_cell_broadcasts">Чтение трансляции</string>
+    <string name="app_ops_labels_mock_location">Ложное местоположение</string>
+    <string name="app_ops_labels_read_external_storage">Чтение внутренней памяти</string>
+    <string name="app_ops_labels_write_external_storage">Запись во внешнюю память</string>
+    <string name="app_ops_labels_turn_screen_on">Поворот экрана</string>
+    <string name="app_ops_labels_get_accounts">Подключение аккаунтов</string>
+    <string name="app_ops_labels_change_wifi">Переключение Wi-Fi</string>
+    <string name="app_ops_labels_toggle_bluetooth">Переключение bluetooth</string>
+    <string name="app_ops_labels_start_at_boot">Запуск при загрузке</string>
+    <string name="app_ops_labels_toggle_nfc">Переключение NFC</string>
+    <string name="app_ops_labels_toggle_mobile_data">Переключение мобильных данных</string>
+    <string name="app_ops_labels_superuser">Root-доступ</string>
+
+    <!-- App ops permissions -->
+    <string name="app_ops_permissions_allowed">Расзрешено</string>
+    <string name="app_ops_permissions_ignored">Игнориурется</string>
+    <string name="app_ops_permissions_always_ask">Всегда спрашивать</string>
+
+    <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Разрешено <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Отказано <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Разрешено <xliff:g id="count">%1$s</xliff:g>, отказано <xliff:g id="count">%2$s</xliff:g></string>
+
+    <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Скрыть пользовательские приложения</string>
+    <string name="app_ops_show_system_apps">Скрыть встроенные приложения</string>
+    <string name="app_ops_reset_counters">Сбросить счетчики</string>
+    <string name="app_ops_reset_confirm_title">Подтвердить сброс счетчиков</string>
+    <string name="app_ops_reset_confirm_mesg">Вы уверены, что хотите сбросить счетчики?</string>
+
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">Защита данных</string>
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_switch_label">Активировать Privacy Guard</string>
+    <string name="privacy_guard_dlg_title">Активировать Privacy Guard?</string>
+    <string name="privacy_guard_dlg_text">Когда Privacy Guard включен, приложение не сможет получить доступ к личным данным, такие как контакты, сообщения или журналы вызовов.</string>
+    <string name="privacy_guard_dlg_system_app_text">При включении Privacy Guard для встроенного приложения, приложение не сможет получить доступ или предоставить персональные данные. Это может привести к поломке других приложений.</string>
+    <string name="privacy_guard_default_title">Включено по умолчанию</string>
+    <string name="privacy_guard_default_summary">Включение по умолчанию для вновь установленных приложений</string>
+    <string name="privacy_guard_manager_title">Privacy Guard</string>
+    <string name="privacy_guard_manager_summary">Управление приложениями, которые имеют доступ к вашим личным данным</string>
+    <string name="privacy_guard_no_user_apps">Нет установленных приложений</string>
+    <string name="privacy_guard_help_title">Помощь</string>
+    <string name="privacy_guard_reset_title">Сброс</string>
+    <string name="privacy_guard_reset_text">Сбросить разрешения?</string>
+    <string name="privacy_guard_help_text">На этом экране вы можете выбрать приложения Privacy Guard, просто нажав на них. Выбранные приложения не смогут получить доступ к вашем личным данным, такие как контакты, сообщения или журналы вызовов. Длительное нажатие на приложение открывает данные приложения.\n\nВстроенные приложения не отображаются по умолчанию, но могут быть выявлены, выбрав соответствующий пункт меню.</string>
+    <string name="privacy_guard_manager_show_system_apps">Показывать встроенные приложения</string>
+    <string name="privacy_guard_advanced_settings_title">Дополнительно</string>
+
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Root-доступ</string>
+    <string name="root_access_warning_title">Разрешить root-доступ?</string>
+    <string name="root_access_warning_message">Предоставлять приложениям root-доступ очень опасно и может поставить под угрозу безопасность вашей системы!</string>
+    <string name="root_access_none">Отключено</string>
+    <string name="root_access_apps">Только приложения</string>
+    <string name="root_access_adb">Только ADB</string>
+    <string name="root_access_all">Приложения и ADB</string>
+
+    <!-- Memory -->
+    <string name="memory_startup_apps_title">Запустившиеся приложения</string>
+
+    <!-- About phone screen, Slim version -->
+    <string name="slim_version_title">Версия Slim</string>
+    <string name="slim_version_default">Неизвестно</string>
 
     <!-- Common strings -->
     <string name="disabled">Отключено</string>
@@ -91,9 +230,9 @@
     <string name="navigation_menu_never_show">Никогда не показывать</string>
     <string name="navigation_menu_always_show">Показывать всегда</string>
     <string name="navbar_button_cat">Кнопки</string>
-    <string name="title_pref_menu_location">Расположенин меню</string>
+    <string name="title_pref_menu_location">Расположение меню</string>
     <string name="summary_pref_menu_location">Где расположить кнопку меню?</string>
-    <string name="title_pref_menu_display">Отоьражение меню</string>
+    <string name="title_pref_menu_display">Отображение меню</string>
     <string name="summary_pref_menu_display">Как и когда должна появляться кнопка?</string>
     <string name="navbar_enable_bar">Активировать панель навигации</string>
     <string name="navbar_enable_bar_summary">Активировать панель навигации</string>
@@ -191,5 +330,46 @@
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_options_settings_title">Допольнительно</string>
     <string name="device_settings_title">Настройки устройства</string>
+    
+        <!-- Doze options --> 
+    <string name="display_category_doze_options_title">Умный экран</string> 
+ 	<string name="doze_settings_title">Расширенные настройки doze</string> 
+ 	<string name="doze_timeout_title">Тайм-аут импульса doze</string> 
+ 	<string name="doze_timeout_summary">Продолжительность включения экрана для импульса</string> 
+ 	<string name="doze_trigger_pickup_title">Выбрать жест триггера</string> 
+	<string name="doze_trigger_pickup_summary_on">Doze pulse will be triggered by pick up gesture sensor events</string> 
+ 	<string name="doze_trigger_pickup_summary_off">Pick up gesture sensor will not be utilized as a triggering mechanism</string> 
+ 	<string name="doze_trigger_sigmotion_title">Significant motion trigger</string> 
+ 	<string name="doze_trigger_sigmotion_summary_on">Doze pulse will be triggered by significant motion sensor events</string> 
+ 	<string name="doze_trigger_sigmotion_summary_off">Significant motion sensor will not be utilized as a triggering mechanism</string> 
+ 	<string name="doze_trigger_notification_title">Триггер - уведомления</string> 
+ 	<string name="doze_trigger_notification_summary_on">Уведомления используются в качестве триггера для doze</string> 
+ 	<string name="doze_trigger_notification_summary_off">Уведомления не будут использованы в качестве триггера для doze</string> 
+ 	<string name="doze_schedule_title">Режим пульсации</string> 
+ 	<string name="doze_schedule_summary_on">Будут использованы предопределенные интервалы повторений [1с,10с,30с,60с,120с] (по умолчанию)</string> 
+ 	<string name="doze_schedule_summary_off">Однократная пульсация при получении уведомления</string> 
+ 	<string name="doze_brightness_title">Уровень яркости</string> 
+ 	<string name="doze_brightness_summary">Уровень яркости экрана при импульсе (% от максимально допустимой яркости)</string> 
+
+    <!-- Display & Lights screen, setting options for LCD density -->
+    <string name="lcd_density">Плотность LCD</string>
+    <string name="dialog_title_lcd_density">Плотность LCD</string>
+    <string name="lcd_density_value_format">%d DPI</string>
+    <string name="lcd_density_default_value_format">%d DPI (по умолчанию)</string>
+    <string name="restarting_ui">Перезагрузка UI\u2026</string>
+    <string name="lcd_density_prompt_message">Некоторые приложения могут не работать в нестандартном DPI.\n\nПерезагрузить телефон.</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Опции пробуждения</string>
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждение на зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать девайс при подключении/отколючении питания.</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
+    <string name="proximity_wake_summary">Проверяет датчик приближения до пробуждения экрана</string>
+
+    <!-- Chamber of Secrets -->
+    <string name="chamber_title">Тайная комната </string>
+    <string name="chamber_toast">Тайная комната открылась</string>
 
 </resources>
