@@ -100,8 +100,8 @@
     <string name="app_ops_labels_superuser">Root-доступ</string>
 
     <!-- App ops permissions -->
-    <string name="app_ops_permissions_allowed">Расзрешено</string>
-    <string name="app_ops_permissions_ignored">Игнориурется</string>
+    <string name="app_ops_permissions_allowed">Разрешено</string>
+    <string name="app_ops_permissions_ignored">Игнорируется</string>
     <string name="app_ops_permissions_always_ask">Всегда спрашивать</string>
 
     <!-- App ops detail -->
