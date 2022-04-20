@@ -1,0 +1,88 @@
+From 70a8ae92e22a3e26485f607748f512174414ef8a Mon Sep 17 00:00:00 2001
+From: MrArtemSid <artem.sid.key@gmail.com>
+Date: Thu, 27 Jan 2022 00:49:53 +0400
+Subject: [PATCH] ARM64: dts: xiaomi: dipper: Update display part for 4.19
+
+1. Now SDE DRM parses panel from bootloader, so rename to load correct one
+2. Let's use sde_dsi node from sdm845-sde-display
+3. CAF deleted qcom,dsi-panel string from dsi_panel, so need to move some changes into panel nodes
+---
+ .../boot/dts/qcom/xiaomi/dipper/dipper-p0.dtsi      | 13 +++++++------
+ .../dipper/dsi-panel-ss-notch-fhd-ea8074-cmd.dtsi   |  7 ++++++-
+ .../boot/dts/qcom/xiaomi/xiaomi-sde-display.dtsi    |  2 +-
+ 3 files changed, 14 insertions(+), 8 deletions(-)
+
+diff --git a/arch/arm64/boot/dts/qcom/xiaomi/dipper/dipper-p0.dtsi b/arch/arm64/boot/dts/qcom/xiaomi/dipper/dipper-p0.dtsi
+index 77a6d91c05b7..69b1a3e6e042 100644
+--- a/arch/arm64/boot/dts/qcom/xiaomi/dipper/dipper-p0.dtsi
++++ b/arch/arm64/boot/dts/qcom/xiaomi/dipper/dipper-p0.dtsi
+@@ -257,7 +257,7 @@
+ 	status = "disabled";
+ };
+ 
+-&dsi_ss_notch_fhd_ea8074_cmd {
++&dsi_ss_ea8074_notch_fhd_cmd_display {
+ 	qcom,panel-supply-entries = <&dsi_amoled_panel_pwr_supply>;
+ 	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_dcs";
+ 	qcom,mdss-dsi-bl-min-level = <2>;
+@@ -340,10 +340,6 @@
+ 	qcom,platform-reset-gpio = <&tlmm 6 0>;
+ };
+ 
+-&dsi_ss_ea8074_notch_fhd_cmd_display {
+-	qcom,dsi-display-active;
+-};
+-
+ &sde_dp {
+ 	status = "disabled";
+ };
+@@ -367,7 +363,12 @@
+ 
+ &mdss_mdp {
+ 	#cooling-cells = <2>;
+-	connectors = <&sde_rscc &sde_wb>;
++	connectors = <&sde_rscc &sde_wb &sde_dsi>;
++};
++
++&sde_dsi {
++    vci-supply = <&disp_vci_vreg>;
++    qcom,dsi-default-panel = <&dsi_ss_ea8074_notch_fhd_cmd_display>;
+ };
+ 
+ &pm8998_l28{
+diff --git a/arch/arm64/boot/dts/qcom/xiaomi/dipper/dsi-panel-ss-notch-fhd-ea8074-cmd.dtsi b/arch/arm64/boot/dts/qcom/xiaomi/dipper/dsi-panel-ss-notch-fhd-ea8074-cmd.dtsi
+index 7881509b6284..ee5a35f89a4a 100644
+--- a/arch/arm64/boot/dts/qcom/xiaomi/dipper/dsi-panel-ss-notch-fhd-ea8074-cmd.dtsi
++++ b/arch/arm64/boot/dts/qcom/xiaomi/dipper/dsi-panel-ss-notch-fhd-ea8074-cmd.dtsi
+@@ -17,12 +17,17 @@
+  * VERSION = "1.0"
+  *---------------------------------------------------------------------------*/
+ &soc {
+-	dsi_ss_notch_fhd_ea8074_cmd: qcom,mdss_dsi_ss_notch_fhd_ea8074_cmd {
++	dsi_ss_ea8074_notch_fhd_cmd_display: dsi_ss_ea8074_notch_fhd_cmd_display {
+ 		qcom,mdss-dsi-panel-name = "ss notch fhd cmd dsi panel";
+ 		qcom,mdss-dsi-panel-id = <0>;
+ 		qcom,mdss-dsi-panel-model = "SS NOTCH FHD EA8074 CMD PANEL";
+ 		qcom,mdss-dsi-panel-sleepwrmod = <0>;
+ 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
++
++		qcom,dsi-ctrl-num = <0>;
++		qcom,dsi-phy-num = <0>;
++		qcom,dsi-select-clocks = "mux_byte_clk0", "mux_pixel_clk0";
++
+ 		qcom,mdss-dsi-virtual-channel-id = <0>;
+ 		qcom,mdss-dsi-stream = <0>;
+ 		qcom,mdss-dsi-bpp = <24>;
+diff --git a/arch/arm64/boot/dts/qcom/xiaomi/xiaomi-sde-display.dtsi b/arch/arm64/boot/dts/qcom/xiaomi/xiaomi-sde-display.dtsi
+index dc226352b935..167aa62ec677 100644
+--- a/arch/arm64/boot/dts/qcom/xiaomi/xiaomi-sde-display.dtsi
++++ b/arch/arm64/boot/dts/qcom/xiaomi/xiaomi-sde-display.dtsi
+@@ -117,7 +117,7 @@
+ 	qcom,dsi-default-panel = <&dsi_tianma_fhd_nt36672a_video_display>;
+ };
+ 
+-&dsi_ss_notch_fhd_ea8074_cmd {
++&dsi_ss_ea8074_notch_fhd_cmd_display {
+ 	qcom,mdss-dsi-t-clk-post = <0x0e>;
+ 	qcom,mdss-dsi-t-clk-pre = <0x34>;
+ 	qcom,mdss-dsi-display-timings {

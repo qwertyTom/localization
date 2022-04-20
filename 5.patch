@@ -1,0 +1,21 @@
+From f6d98f7e2cf4391fe26c2d49fbac4e22ee957412 Mon Sep 17 00:00:00 2001
+From: MrArtemSid <artem.sid.key@gmail.com>
+Date: Thu, 27 Jan 2022 00:40:36 +0400
+Subject: [PATCH] defconfig: sdm845-perf: Enable dipper support
+
+---
+ arch/arm64/configs/vendor/sdm845-perf_defconfig | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/arch/arm64/configs/vendor/sdm845-perf_defconfig b/arch/arm64/configs/vendor/sdm845-perf_defconfig
+index e535f30bb278..559a3c3d73cc 100644
+--- a/arch/arm64/configs/vendor/sdm845-perf_defconfig
++++ b/arch/arm64/configs/vendor/sdm845-perf_defconfig
+@@ -48,6 +48,7 @@ CONFIG_HOTPLUG_SIZE_BITS=29
+ CONFIG_ARCH_QCOM=y
+ CONFIG_ARCH_SDM845=y
+ CONFIG_MACH_XIAOMI_E10=y
++CONFIG_MACH_XIAOMI_E1N=y
+ CONFIG_PCI=y
+ CONFIG_PCI_MSM=y
+ CONFIG_PCI_MSM_MSI=y
